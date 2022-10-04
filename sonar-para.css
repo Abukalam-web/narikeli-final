@@ -1,0 +1,58 @@
+*{
+    font-family: 'Tiro Bangla', serif;
+}
+
+.container-fluid img{
+    width: 35px;
+    height: 35px;
+   
+}
+.nav01{
+    margin-left: 100px;
+}
+
+
+
+  
+ 
+  
+  h2{
+    font-weight:bold;
+    color:grey;
+    text-transform:uppercase;
+    font-size:25px;
+    background-color:white;
+    padding:20px 0;
+    box-shadow: 5px 6px 8px lightgrey;
+    letter-spacing: 4px;
+
+  }
+  
+  th, td {
+      text-align: center;
+      border: solid thin;
+      padding: 7px;
+  }
+  table {
+      margin-top:20px;
+      margin-bottom:20px;
+      border: solid thin;
+      border-collapse: collapse;
+      align-items: center;
+  }
+  th {
+      background:#0A66C2;
+      color: white;
+      font-weight:.2rem;
+      border: solid black thin;
+  }
+  
+  #input {
+    color:#0A66C2;
+    font-size: 16px; 
+    padding: 10px 16px 10px 16px; 
+    border: 1px solid black;
+    margin-bottom: 12px; 
+    overflow: hidden;
+    width:50vw;
+  }

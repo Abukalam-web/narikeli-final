@@ -357,17 +357,20 @@ margin-top: 6%;
 }
 .clock {
     font-family: 'Times New Roman', Times, serif;
-    
-    color: black;
+    color: grey;
     font-size: 30px;
     letter-spacing: 5px;
-   
+    margin-left:6px;
 
 
 }
 .left00{
     /* background-image: linear-gradient(to left,#81ecec,#55efc4); */
+    background: white;
     border-radius: 10px;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
     box-shadow: 5px 6px 8px lightgrey;
 }
 

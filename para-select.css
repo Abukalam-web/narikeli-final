@@ -1,0 +1,78 @@
+*{
+    font-family: 'Tiro Bangla', serif;
+}
+
+.container-fluid img{
+    width: 35px;
+    height: 35px;
+   
+}
+.nav01{
+    margin-left: 100px;
+}
+
+.left00{
+    background: white;
+    box-shadow: 5px 6px 8px lightgrey;
+    border-radius: 10px;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+
+}
+.clock {
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-left:6px;
+}
+
+.pp1{
+    width: 44%;
+    height: 590px;
+    box-shadow: 0px 0px 1px lightgrey, 0px 4px 30px lightgrey, 0px 0px 12px lightgrey, 0px 0px 12px lightgrey;
+    border-radius: 10px;    
+}
+
+.pp-head{
+    text-align: center;
+    color: grey;
+    border-bottom: 1.5px dotted lightgrey;
+}
+
+.scrolling-text{
+    padding-top: 5px;
+    box-shadow: 5px 6px 8px lightgrey;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+
+.list-pp-iteam  a{
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+   font-size: 1.6rem;
+}
+.list-pp-iteam  a:hover{
+    color: white;
+}
+.list-pp-iteam  .pp-it:hover{
+    box-shadow: 0px 0px 10px #FFC312, 0px 0px 40px #FFC312,0px 0px 80px #FFC312,0px 0px 120px #FFC312;
+    background: #FFC312;
+    color: white;
+    border: none;
+    margin: 30px 15%;
+}
+
+.pp-it{
+    transition: all 0.4s;
+    text-align: center;
+    border: 1px solid white;
+    margin: 10px 17%;
+    padding: 11px 0px;
+    border-radius: 13px;
+    box-shadow: 0px 0px 2px lightgrey, 2px 1px 4px lightgrey, 0px 0px 4px lightgrey, 0px 0px 15px lightgrey;
+}
