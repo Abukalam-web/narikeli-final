@@ -76,3 +76,26 @@
     border-radius: 13px;
     box-shadow: 0px 0px 2px lightgrey, 2px 1px 4px lightgrey, 0px 0px 4px lightgrey, 0px 0px 15px lightgrey;
 }
+
+
+@media screen and (max-width: 500px){
+
+
+    .pp1 {
+        width: 80%;
+        height: 619px;
+        box-shadow: 0px 0px 1px lightgrey, 0px 4px 30px lightgrey, 0px 0px 12px lightgrey, 0px 0px 12px lightgrey;
+        border-radius: 10px;
+    }
+
+    .pp-it {
+        transition: all 0.4s;
+        text-align: center;
+        border: 1px solid white;
+        margin: 15px 10%;
+        padding: 11px 0px;
+        border-radius: 13px;
+        box-shadow: 0px 0px 2px lightgrey, 2px 1px 4px lightgrey, 0px 0px 4px lightgrey, 0px 0px 15px lightgrey;
+    }
+
+}

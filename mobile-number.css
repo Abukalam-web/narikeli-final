@@ -98,7 +98,7 @@ border-radius: 16px;
 
 @media screen and (max-width: 500px){
     .p {
-        width: 290px;
+        width: 274px;
         height: 90px;
         background: orchid;
         border-radius: 50px;
@@ -111,6 +111,12 @@ border-radius: 16px;
         z-index: 0;
     }
 
+    .bbb p a{
+        color: grey;
+        text-decoration: none;
+        text-align: center;
+        }
+
     .bbb {
         margin-left: 4%;
     }
@@ -121,4 +127,10 @@ border-radius: 16px;
     .first-row h3{
         padding: 20px 34px;
     }
+}
+
+.bbb p a{
+color: grey;
+text-decoration: none;
+text-align: center;
 }
