@@ -1,0 +1,221 @@
+*{
+    font-family: 'Tiro Bangla', serif;
+}
+
+.container-fluid img{
+    width: 35px;
+    height: 35px;
+   
+}
+.nav01{
+    margin-left: 100px;
+}
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-card{
+    width: 80vw;
+    height: 500px;
+    background-image: linear-gradient(to top left,rgba(rgba(26, 188, 156,1.0),rgba(46, 204, 113,1.0)));
+    box-shadow: 0px 0px 1px lightgrey, 0px 4px 30px lightgrey, 0px 0px 12px lightgrey, 0px 0px 12px lightgrey;
+    margin-top: 2%;
+    border-radius: 14px;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+
+}
+.main-section::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right bottom,rgba(6, 82, 221,1.0),rgba(34, 166, 179,1.0));
+    clip-path: circle(20% at 10% 10%);
+    z-index: -1;
+}
+
+.main-section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left top,yellow,orange);
+    clip-path: circle(30% at right 70%);
+    z-index: -1;
+}
+
+
+.first-row-01{
+    box-shadow: 0px 0px 1px lightgrey, 0px 4px 30px lightgrey, 0px 0px 12px lightgrey, 0px 0px 12px lightgrey;
+    text-align: center;
+    color: grey;
+ }
+ .marquee-text{
+    color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 4px lightgrey ;
+ }
+ .first-01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+ }
+ .details-text{
+    color: grey;
+    text-align: center;
+    
+ }
+.first-02{
+    border-left: 3px solid lightgrey;
+}
+
+/* akhan theke btn er kaj shuru hbe */
+.first-02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+}
+
+.btn-001, .btn-002{
+    color: white;
+}
+.row-01{
+    height: 400px;
+}
+.btn-01 a,.btn-02 a{
+    font-size: 25px;
+    transition: all 1s ease-in-out;
+    border-radius: 30px;
+}
+
+.btn-01{
+    margin-bottom: 2%;
+}
+.btn-02{
+    margin-top: 2%;
+    
+}
+.btn-01, .btn-02{
+    width: 260px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-image: linear-gradient(to right,rgba(34, 166, 179,1.0),yellow);
+}
+ 
+
+
+.btn-01:hover,.btn-02:hover{
+    font-size: 25px;
+    background-image: linear-gradient(to left,rgba(34, 166, 179,1.0),yellow);
+    color: white;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .main-card{
+        width: 80vw;
+        height: 500px;
+        background-image: linear-gradient(to top left,rgba(rgba(26, 188, 156,1.0),rgba(46, 204, 113,1.0)));
+        box-shadow: 0px 0px 1px lightgrey, 0px 4px 30px lightgrey, 0px 0px 12px lightgrey, 0px 0px 12px lightgrey;
+        margin-top: 2%;
+        border-radius: 14px;
+        backdrop-filter: blur(10px);
+    }
+    .first-01 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 210px;
+    }
+    .first-02 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 159px;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 450px){
+    .first-01 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 254px;
+
+       
+    }
+
+    .first-02{
+        border-left: none;
+    }
+    .details-text {
+        color: grey;
+        text-align: justify;
+        margin-top: 23px;
+    }
+    .main-card {
+        width: 80vw;
+        height: 547px;
+        box-shadow: 0px 0px 1px lightgrey, 0px 4px 30px lightgrey, 0px 0px 12px lightgrey, 0px 0px 12px lightgrey;
+        margin-top: 2%;
+        border-radius: 14px;
+        backdrop-filter: blur(10px);
+    }
+}
+
+
+
+@media screen and (max-width: 500px){
+    .details-text {
+        color: grey;
+        text-align: justify;
+    }
+    .first-02{
+        border-left: none;
+    }
+}
+
+
+@media screen and (max-width: 350px){
+    .first-02 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 159px;
+        margin-top: 22px;
+    }
+    .first-02{
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    
+}
