@@ -159,13 +159,10 @@ padding: 15px 0px 0px 0px;
 }
 
 @media screen and (max-width: 900px){
-    .dextop-display{
-        display: none;
-
-    }
-    .mobile-display{
-        display: block;
-    }
+   
+   .mobile-display{
+    display: none;
+   }
 }
 @media screen and (max-width: 1060px){
     .box-01 {
